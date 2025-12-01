@@ -218,7 +218,7 @@ function HomePage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
 
                         {[
-                            { icon: <PiCarProfileLight className="w-[88px] h-[88px]" />, label: "Xe con 5 chổ" },
+                            { icon: <PiCarProfileLight className="w-[88px] h-[88px]" />, label: "Xe con 5 chổ", },
                             { icon: <PiVanLight className="w-[88px] h-[88px]" />, label: "Xe du lịch" },
                             { icon: <LiaTruckPickupSolid className="w-[88px] h-[88px]" />, label: "Bán tải" },
                             { icon: <TbTruck className="w-[88px] h-[88px]" />, label: "Xe tải dưới 3 tấn" },
@@ -231,6 +231,10 @@ function HomePage() {
                             >
                                 {item.icon}
                                 <p className="text-lg mt-4">{item.label}</p>
+                                <Button size="large" style={{ backgroundColor: "primary", color: "#00854A", width: 130,height: 45, borderRadius: 10 }}>
+                                    <span className="text-base lg:text-[18px] font-bold font-mono">
+                                        Xem chi tiết</span>
+                                </Button>
                             </div>
                         ))}
 

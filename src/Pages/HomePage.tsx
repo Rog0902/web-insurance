@@ -155,8 +155,8 @@ function HomePage() {
         <div className="w-full min-h-screen bg-gray-100 flex flex-col justify-center items-center">
             <Header />
             <div className="w-full max-w-[1370px] mx-auto h-auto px-4 bg-gray-100 flex-1 flex-col justify-center mb-10 ">
-                <div className="w-full min-h-[500px] bg-gray-100 flex-1 flex lg:flex-row">
-                    <div className="flex-1 flex-col justify-center items-center" >
+                <div className="w-full min-h-[500px] bg-gray-100 flex-1 flex flex-col lg:flex-row">
+                    <div className="flex-1 flex flex-col justify-center items-center text-center lg:text-left lg:items-start lg:justify-start">
                         <img src={Logo} alt="Logo" className=" mt-15 mb-5" />
                         <div className="text-3xl sm:text-5xl lg:text-[65px] font-bold bai-jamjuree-font">
                             Bảo vệ tương lai

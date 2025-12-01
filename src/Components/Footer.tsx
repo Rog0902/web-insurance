@@ -83,9 +83,12 @@ function Footer() {
                 </div>
 
             </div>
-            <div className="text-base sm:text-sm lg:text-[20px] font-semibold flex items-center text-center mb-3">
-                Copyright © 2025 <span className=" text-[#00854A] ml-1"> DBV Đông Nam Bộ</span> . All rights reserved.
-            </div>
+            <p className="text-[13px] sm:text-sm lg:text-[20px] font-semibold flex flex-wrap lg:flex-row items-center justify-center text-center mb-3">
+                
+                    Copyright © 2025 <span className=" text-[#00854A] ml-1"> DBV Đông Nam Bộ.</span> All rights reserved.
+
+
+            </p>
 
         </div>
     );
